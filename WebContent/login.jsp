@@ -26,7 +26,6 @@
 </head>
 <body>
 	<div class="main">
-
 		<!-- Singin  Form -->
 		<section class="sign-in">
 			<div class="container">
@@ -35,8 +34,7 @@
 						<figure>
 							<img src="images/signin-image.jpg" alt="singin image">
 						</figure>
-						<a href="registration.jsp" class="signup-image-link">Create an
-							account?</a>
+						<a href="registration.jsp" class="signup-image-link">Create an account?</a>
 					</div>
 
 					<div class="signin-form">
@@ -57,8 +55,7 @@
 							<div class="form-group">
 								<input type="checkbox" name="remember-me" id="remember-me"
 									class="agree-term" /> <label for="remember-me"
-									class="label-agree-term"><span><span></span></span>Remember
-									me</label>
+									class="label-agree-term"><span><span></span></span>Remember me</label>
 							</div>
 							<div class="form-group form-button">
 								<input type="submit" name="signin" id="signin"
