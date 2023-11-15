@@ -63,7 +63,7 @@
     </div>
 </nav>
 <!-- Header -->
-<div class="container">
+<div class="container" style="padding-top: 30px; padding-bottom: 30px">
 	<div class="row">
 		<div class="col">
 			<div class="map_h">
@@ -71,11 +71,6 @@
 					<h1 class="title_db"><span>Liên hệ với chúng tôi</span></h1>
 				</div>
 				<ul class="page-contact">
-					<li>
-						<p class="summary_footer">
-							Đang cập nhật...									
-						</p>
-					</li>
 					<li>
 						<div class="icon_base">
 							<img src="//bizweb.dktcdn.net/100/433/551/themes/831027/assets/i_footer_1.png?1631607902654" class="icon_footer" alt="UrFood">
@@ -106,12 +101,15 @@
 									<fieldset class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">							
 										<input type="text" placeholder="Họ và tên" name="contact[name]" id="name" class="form-control  form-control-lg" required="">
 									</fieldset>
+									<br>
 									<fieldset class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
 										<input placeholder="Email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required="" id="email1" class="form-control form-control-lg" value="" name="contact[email]">
 									</fieldset>
+									<br>
 									<fieldset class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
 										<textarea placeholder="Lời nhắn" name="contact[body]" id="comment" class="form-control content-area form-control-lg" rows="2" required=""></textarea>
 									</fieldset>
+									<br>
 									<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 margin-top-10">
 										<button type="submit" class="btn btn-primary btn-lienhe">Gửi liên hệ</button>
 									</div>
@@ -164,5 +162,8 @@
 		}
 	});    
 </script>
+
+<!-- Footer -->
+ <%@ include file="footer.html" %>
 </body>
 </html>

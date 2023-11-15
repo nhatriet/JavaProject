@@ -240,6 +240,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
+	text-decoration: none;
   color: #15967d;
 }
 
@@ -7761,8 +7762,9 @@ textarea.form-control-lg {
 }
 
 .text-white {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  	--bs-text-opacity: 1;
+  	color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+	text-decoration: none;
 }
 
 .text-body {
@@ -11498,8 +11500,6 @@ html {
 }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
   background-color: #24262b;
   color: #fff;
 }
@@ -11531,3 +11531,8 @@ html {
     margin-top: 5px;
 }
 
+.hero {
+  width: 100%;
+  height: 100vh;
+  padding: 20px 10%;
+}
