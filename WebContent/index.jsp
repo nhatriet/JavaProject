@@ -1,3 +1,5 @@
+<%@ page import="cn.techtutorial.connection.DbCon" %>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -28,7 +30,7 @@
 <!-- Header -->
 
 <!-- Content -->
-
+<% out.print(DbCon.getConnection()); %>
 <!-- Content -->
 
 <!-- Footer -->

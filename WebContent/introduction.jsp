@@ -56,7 +56,8 @@
   				</button>
 			</div>
     	</div>
-
+		
+		<br><br>
         <div class="container marketing">
             <!-- Three columns of text below the carousel -->
             <div class="row style="	justify-content: center; text-align: center;">
@@ -99,7 +100,7 @@
                 <div class="col-md-7 order-md-2">
                     <h2 class="featurette-heading">Báo cáo Doanh thu tuyệt vời
                     	<br>
-                    	<span class="text-muted">Theo dõi đơn hàng của bạn.</span>
+                    	<span class="text-muted">Theo dõi đơn hàng của bạn</span>
                     </h2>
                     <p class="lead">Hệ thống theo dõi đơn hàng chi tiết, thông tin mọi lúc mọi nơi.</p>
                 </div>
@@ -113,18 +114,69 @@
     <hr>
     <div class="container p-5 my-5 bg-success text-white">
   			<h1>Cửa hàng siêu thị mini</h1>
-  			<p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
-		</div>
-  		<div class="row">
-		    <div class="col-sm-4 p-3 bg-light text-dark">
-		    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-		    quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. 
-		    Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		    </div>
-		    <div class="col-sm-8 p-3 text-white" >
-		    	<img src="images/GioiThieu.jpg" alt="Giới Thiệu" class="d-block" style="width:100%">
-		    </div>
-  		</div>
+  			<p>Trở thành bạn đồng hành đáng tin cậy của mọi gia đình, mang đến sản phẩm đa dạng, chất lượng tươi mới với giá cả phải chăng.</p>
+	</div>
+ 	<div class="row">
+	    <div class="col-sm-4 p-3 bg-light text-dark style="text-align:center">
+	    	Thật tiện lợi và dễ dàng với những món ăn đầy đủ dinh dưỡng, tiết kiệm thời gian chế biến.
+	    	<br>
+	    	Sẽ giúp bạn có nhiều thời gian dành cho gia đình và những người thân yêu.
+	    	<br>
+	    	Hãy khám phá những sản phẩm đặc biệt này.
+	    </div>
+	    <div class="col-sm-8 p-3 text-white" >
+	    	<img src="images/GioiThieu.jpg" alt="Giới Thiệu" class="d-block" style="width:100%">
+	    </div>
+ 	</div>
+ 	<br>
+ 	 <div class="row">
+	    <div class="col-sm-6 p-3 bg-light text-dark" style="text-align: center">
+	    	<h3 style="color: #2b542c; font-weight: 800">Luôn tươi mới</h3>
+	    	<p>Khu chợ hiện đại gần ngay bạn, cung cấp đa dạng sản phẩm tươi sống với mức giá tốt nhất.</p>
+	    </div>
+	    <div class="col-sm-6 p-3 bg-light text-dark" style="text-align: center">
+	    	<h3 style="color: #2b542c; font-weight: 800">Giá cả hợp lý</h3>
+	    	<p>Luôn mang đến giá trị cho khách hàng, cam kết mang đến sản phẩm chất lượng cao với giá cả tốt nhất và thường xuyên có chương trình khuyến mãi cho các mặt hàng thiết yếu.</p>
+	    </div>
+ 	</div>
+ 	<br>
+ 	<div class="row">
+	    <div class="col-sm-6 p-3 bg-light text-dark" style="text-align: center">
+	    	<h3 style="color: #2b542c; font-weight: 800">Trải nghiệm mua sắm tiện lợi</h3>
+	    	<p>Mua sắm nhanh chóng và dễ dàng, tiện lợi mọi lúc mọi nơi với ứng dụng mua hàng trực truyến, quầy thanh toán tự động tại siêu thị và chương trình ưu đãi thành viên độc quyền.</p>
+	    </div>
+	    <div class="col-sm-6 p-3 bg-light text-dark" style="text-align: center">
+	    	<h3 style="color: #2b542c; font-weight: 800">Hàng hóa đa dạng</h3>	
+	    	<p>Địa điểm mua sắm lý tưởng với hàng ngàn sản phẩm nhập khẩu từ mọi nơi trên thế giới.</p>
+	    </div>
+ 	</div>
+ 	 	<!-- Team -->
+ 	<div class="container-fluid" style="justify-content:center; text-align: center">
+ 		<img src="images/1115.jpg">
+ 	</div>
+ 	
+ 	<div class="row">
+	    <div class="col-sm-6 p-3 text-dark" style="justify-content: center; text-align: center">
+	    	<img src="images/avt_introduction/ntran.jpg" alt="NTran" style="width:45%">
+ 			<h4 style="padding-top: 8px">Nguyễn Ngọc Trân</h4>
+	    </div>
+	    <div class="col-sm-6 p-3 text-dark" style="justify-content: center; text-align: center">
+	    	<img src="images/avt_introduction/ntriet.jpg"  alt="NTriet" style="width:45%">
+ 			<h4 style="padding-top: 8px">Đoàn Ngọc Nhã Triết</h4>
+	    </div>
+ 	</div>
+ 	<br>
+ 	<div class="row">
+	    <div class="col-sm-6 p-3 text-dark" style="justify-content: center; text-align: center">
+	    	<img src="images/avt_introduction/pdai.jpg"  alt="PDai" style="width:45%">
+ 			<h4 style="padding-top: 8px">Nguyễn Phương Đại</h4>
+	    </div>
+	    <div class="col-sm-6 p-3 text-dark" style="justify-content: center; text-align: center">
+	    	<img src="images/avt_introduction/hkhang.jpg"  alt="HKhang" style="width:45%">
+ 			<h4 style="padding-top: 8px">Hồ Hoàng Khang</h4>
+	    </div>
+ 	</div>
+ 	<!-- Team -->
 </div>
 
 <!-- Footer -->
