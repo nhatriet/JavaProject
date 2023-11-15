@@ -199,7 +199,7 @@ body {
   background: #f8f8f8;
   font-weight: 600;
   font-family: Poppins; }
-
+  
 .container {
   width: 900px;
   background: #fff;
@@ -396,7 +396,10 @@ input[type=checkbox]:not(old):checked + label > span:before {
 .agree-term {
   display: inline-block;
   width: 100%; }
-
+ .blockquote-text {
+    text-decoration: underline;
+    color: #007BFF; /* Mã màu xanh dương */
+  }
 label {
   position: absolute;
   left: 0;
@@ -591,5 +594,5 @@ label.valid {
   .social-label {
     margin-right: 0px;
     margin-bottom: 10px; } }
-
+   
 /*# sourceMappingURL=style.css.map */

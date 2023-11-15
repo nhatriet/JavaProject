@@ -35,7 +35,8 @@
   --bs-gray-900: #212529;
   --bs-primary: #1abc9c;
   --bs-secondary: #2c3e50;
-  --bs-success: #198754;
+  
+bs{
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
@@ -111,6 +112,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+  
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -237,7 +239,7 @@ sup {
 
 a {
   color: #1abc9c;
-  text-decoration: underline;
+  text-decoration: underline seagreen;
 }
 a:hover {
 	text-decoration: none;
@@ -4781,6 +4783,7 @@ textarea.form-control-lg {
   padding: 0 0;
   margin-bottom: 1rem;
   list-style: none;
+  
 }
 
 .breadcrumb-item + .breadcrumb-item {
@@ -4795,7 +4798,9 @@ textarea.form-control-lg {
 .breadcrumb-item.active {
   color: #6c757d;
 }
-
+.breadcrumb-item{
+	 color: #6c757d;
+}
 .pagination {
   display: flex;
   padding-left: 0;
@@ -7682,7 +7687,9 @@ textarea.form-control-lg {
 }
 
 .text-decoration-underline {
-  text-decoration: underline !important;
+  text-decoration: underline rgb(0, 64, 0) !important;
+
+  
 }
 
 .text-decoration-line-through {

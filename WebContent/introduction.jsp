@@ -35,14 +35,14 @@
             <div class="navbar-nav">
                 <a href="index.jsp" class="nav-item nav-link active">Trang chủ</a>
                 <div class="nav-item dropdown">
-        			<a href="product.jsp" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sản phẩm</a>
+        			<a href="Sanpham.jsp" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sản phẩm</a>
         			<div class="dropdown-menu">
-	            		<a href="#" class="dropdown-item">Rau củ</a>
-	            		<a href="#" class="dropdown-item">Hoa quả</a>
-	            		<a href="#" class="dropdown-item">Ngũ cốc</a>
-	            		<a href="#" class="dropdown-item">Thịt cá</a>
-	            		<a href="#" class="dropdown-item">Trứng sữa</a>
-	            		<a href="#" class="dropdown-item">Mứt</a>
+	            		<a href="Sp-Raucu.jpg" class="dropdown-item">Rau củ</a>
+	            		<a href="Sp-Hoaqua.jpg" class="dropdown-item">Hoa quả</a>
+	            		<a href="Sp-Ngucoc.jpg" class="dropdown-item">Ngũ cốc</a>
+	            		<a href="Sp-Thitca.jpg" class="dropdown-item">Thịt cá</a>
+	            		<a href="Sp-Trungsua.jpg" class="dropdown-item">Trứng sữa</a>
+	            		<a href="Sp-Mut.jpg" class="dropdown-item">Mứt</a>
         			</div>
     			</div>
                 <a href="#introduction.jsp" class="nav-item nav-link">Giới thiệu</a>
@@ -59,6 +59,16 @@
         </div>
     </div>
 </nav>
+
+<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+  <ol class="breadcrumb ">
+    <li class="breadcrumb-item"><a href="index.jpg" >Trang chủ</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Giới thiệu</li>
+   
+  </ol>
+</nav>
+
+
 <div class="container mt-3">
   		<div id="demo" class="carousel slide" data-bs-ride="carousel">
   			<!-- Indicators/dots -->
