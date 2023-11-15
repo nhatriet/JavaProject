@@ -24,42 +24,7 @@
 </head>
 <body>
 <!-- Header -->
-<nav class="navbar navbar-expand-lg navbar-light bg-success">
-    <div class="container-fluid">
-        <a href="#" class="navbar-brand">
-            <img src="images/urfood.png" height="28" alt="UrFood">
-        </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav">
-                <a href="index.jsp" class="nav-item nav-link active">Trang chủ</a>
-                <div class="nav-item dropdown">
-        			<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sản phẩm</a>
-        			<div class="dropdown-menu">
-	            		<a href="#" class="dropdown-item">Rau củ</a>
-	            		<a href="#" class="dropdown-item">Hoa quả</a>
-	            		<a href="#" class="dropdown-item">Ngũ cốc</a>
-	            		<a href="#" class="dropdown-item">Thịt cá</a>
-	            		<a href="#" class="dropdown-item">Trứng sữa</a>
-	            		<a href="#" class="dropdown-item">Mứt</a>
-        			</div>
-    			</div>
-                <a href="introduction.jsp" class="nav-item nav-link">Giới thiệu</a>
-                <a href="contact.jsp" class="nav-item nav-link">Liên hệ</a>
-            </div>
-            <form class="d-flex ms-auto">
-                <input type="text" class="form-control me-sm-2" placeholder="Search...">
-                <button type="submit" class="btn btn-outline-light">Search</button>
-            </form>
-            <div class="navbar-nav ms-auto">
-                <a href="registration.jsp" class="nav-item nav-link">Đăng ký</a>
-                <a href="login.jsp" class="nav-item nav-link">Đăng nhập</a>
-            </div>
-        </div>
-    </div>
-</nav>
+
 <!-- Header -->
 <div class="container mt-3">
   		<div id="demo" class="carousel slide" data-bs-ride="carousel">
