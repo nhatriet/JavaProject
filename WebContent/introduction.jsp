@@ -1,5 +1,17 @@
+<%@ page import="cn.techtutorial.connection.DbCon"%>
+<%@ page import="cn.techtutorial.*"%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+    <%
+    User auth = (User) request.getSession().getAttribute("auth");
+    if(auth!=null){
+    	request.setAttribute("auth",auth);
+    }
+    %>
+    
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,7 +36,7 @@
 </head>
 <body>
 <!-- Header -->
-
+<%@ include file="Navbar.jsp" %>
 <!-- Header -->
 <div class="container mt-3">
   		<div id="demo" class="carousel slide" data-bs-ride="carousel">

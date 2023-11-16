@@ -1,5 +1,16 @@
+<%@ page import="cn.techtutorial.*"%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+
+	<%
+    User auth = (User) request.getSession().getAttribute("auth");
+    if(auth!=null){
+    	response.sendRedirect("index.jsp");
+    }
+    %>
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,7 +50,7 @@
 
 					<div class="signin-form">
 						<h2 class="form-title">Sign in</h2>
-						<form method="" action="" class="register-form"
+						<form method="post" action="user-login" class="register-form"
 							id="login-form">
 							<div class="form-group">
 								<label for="username"><i

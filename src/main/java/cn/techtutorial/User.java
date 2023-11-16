@@ -1,18 +1,18 @@
-package cn.techtutotial;
+package cn.techtutorial;
 
-public class user {
+public class User {
 	private int user_id;
 	private String Username;
 	private String Password;
 	
 	
 	
-	public user() {
+	public User() {
 	}
 
 
 
-	public user(int user_id, String username, String password) {
+	public User(int user_id, String username, String password) {
 		this.user_id = user_id;
 		Username = username;
 		Password = password;

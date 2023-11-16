@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -50,9 +51,15 @@
             
             
             <div class="navbar-nav ms-auto">
-                <a href="registration.jsp" class="nav-item nav-link">Đăng ký</a>
-                <a href="login.jsp" class="nav-item nav-link">Đăng nhập</a>
-                <a href="log-out" class="nav-item nav-link">Đăng xuat </a>
+            	<% 
+            	if (auth!=null){%>
+            		<a href="log-out" class="nav-item nav-link">Đăng xuat </a>
+            	<%}else{ %>
+            		<a href="registration.jsp" class="nav-item nav-link">Đăng ký</a>
+                    <a href="login.jsp" class="nav-item nav-link">Đăng nhập</a>
+            	<%}%>
+                
+                
             </div>
         </div>
     </div>
