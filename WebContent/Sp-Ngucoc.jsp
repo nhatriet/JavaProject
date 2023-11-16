@@ -152,7 +152,7 @@
   <figure class="text-left">
     <blockquote class="blockquote">
     <div class="shadow-sm p-3 mb-5 bg-body rounded">
-      <h2 class="text-decoration-underline ">Ngũ cốc các loại</h2>
+      <h2>Ngũ cốc các loại</h2>
       </div>
     </blockquote>
   </figure>

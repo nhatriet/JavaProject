@@ -152,7 +152,7 @@
   <figure class="text-left">
     <blockquote class="blockquote">
     <div class="shadow-sm p-3 mb-5 bg-body rounded">
-      <h2 class="text-decoration-underline ">Mứt</h2>
+      <h2>Mứt</h2>
       </div>
     </blockquote>
   </figure>
@@ -163,7 +163,7 @@
     <div class="row ">
       <div class="col-md-3 mb-2 ">
         <div class="card img-thumbnail" style="width: 15rem;">
-          <img src="images/trung.jpg" class="card-img-top "  alt="...">
+          <img src="images/mut.jpg" class="card-img-top "  alt="...">
           <div class="card-body">
             <h5 class="card-title">Loại 1</h5>
             <p class="card-text text-warning">Giá: 20000</p>
@@ -180,7 +180,7 @@
 
       <div class="col-md-3 mb-2">
         <div class="card img-thumbnail" style="width: 15rem;">
-          <img src="images/sua.jpg" class="card-img-top" alt="...">
+          <img src="images/mut.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Loại 2</h5>
             <p class="card-text text-warning">Giá: 25000</p>
@@ -197,7 +197,7 @@
 
       <div class="col-md-3 mb-2">
         <div class="card img-thumbnail" style="width: 15rem;">
-          <img src="images/trung.jpg" class="card-img-top" alt="...">
+          <img src="images/mut.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Loại 3</h5>
             <p class="card-text text-warning">Giá: 18000</p>
@@ -214,7 +214,7 @@
 
       <div class="col-md-3 mb-2">
         <div class="card img-thumbnail" style="width: 15rem;">
-          <img src="images/sua.jpg" class="card-img-top" alt="...">
+          <img src="images/mut.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Loại 4</h5>
             <p class="card-text text-warning">Giá: 30000</p>
@@ -234,7 +234,7 @@
       <!-- Tương tự như trên, thêm các cột cho hàng thứ 2 -->
       <div class="col-md-3 mb-2 ">
         <div class="card img-thumbnail" style="width: 15rem;">
-          <img src="images/trung.jpg" class="card-img-top "  alt="...">
+          <img src="images/mut.jpg" class="card-img-top "  alt="...">
           <div class="card-body">
             <h5 class="card-title">Loại 1</h5>
             <p class="card-text text-warning">Giá: 20000</p>
@@ -251,7 +251,7 @@
 
       <div class="col-md-3 mb-2">
         <div class="card img-thumbnail" style="width: 15rem;">
-          <img src="images/sua.jpg" class="card-img-top" alt="...">
+          <img src="images/mut.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Loại 2</h5>
             <p class="card-text text-warning">Giá: 25000</p>
@@ -268,7 +268,7 @@
 
       <div class="col-md-3 mb-2">
         <div class="card img-thumbnail" style="width: 15rem;">
-          <img src="images/trung.jpg" class="card-img-top" alt="...">
+          <img src="images/mut.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Loại 3</h5>
             <p class="card-text text-warning">Giá: 18000</p>
@@ -285,7 +285,7 @@
 
       <div class="col-md-3 mb-2">
         <div class="card img-thumbnail" style="width: 15rem;">
-          <img src="images/trung.jpg" class="card-img-top" alt="...">
+          <img src="images/mut.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Loại 4</h5>
             <p class="card-text text-warning">Giá: 30000</p>
@@ -307,7 +307,7 @@
     <div class="row ">
       <div class="col-md-3 mb-2 ">
         <div class="card img-thumbnail" style="width: 15rem;">
-          <img src="images/trung.jpg" class="card-img-top "  alt="...">
+          <img src="images/mut.jpg" class="card-img-top "  alt="...">
           <div class="card-body">
             <h5 class="card-title">Loại 1</h5>
             <p class="card-text text-warning">Giá: 20000</p>
@@ -324,7 +324,7 @@
 
       <div class="col-md-3 mb-2">
         <div class="card img-thumbnail" style="width: 15rem;">
-          <img src="images/trung.jpg" class="card-img-top" alt="...">
+          <img src="images/mut.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Loại 2</h5>
             <p class="card-text text-warning">Giá: 25000</p>
@@ -341,7 +341,7 @@
 
       <div class="col-md-3 mb-2">
         <div class="card img-thumbnail" style="width: 15rem;">
-          <img src="images/trung.jpg" class="card-img-top" alt="...">
+          <img src="images/mut.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Loại 3</h5>
             <p class="card-text text-warning">Giá: 18000</p>
@@ -358,7 +358,7 @@
 
       <div class="col-md-3 mb-2">
         <div class="card img-thumbnail" style="width: 15rem;">
-          <img src="images/sua.jpg" class="card-img-top" alt="...">
+          <img src="images/mut.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Loại 4</h5>
             <p class="card-text text-warning">Giá: 30000</p>
@@ -378,7 +378,7 @@
       <!-- Tương tự như trên, thêm các cột cho hàng thứ 2 -->
       <div class="col-md-3 mb-2 ">
         <div class="card img-thumbnail" style="width: 15rem;">
-          <img src="images/trung.jpg" class="card-img-top "  alt="...">
+          <img src="images/mut.jpg" class="card-img-top "  alt="...">
           <div class="card-body">
             <h5 class="card-title">Loại 1</h5>
             <p class="card-text text-warning">Giá: 20000</p>
@@ -395,7 +395,7 @@
 
       <div class="col-md-3 mb-2">
         <div class="card img-thumbnail" style="width: 15rem;">
-          <img src="images/sua.jpg" class="card-img-top" alt="...">
+          <img src="images/mut.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Loại 2</h5>
             <p class="card-text text-warning">Giá: 25000</p>
@@ -412,7 +412,7 @@
 
       <div class="col-md-3 mb-2">
         <div class="card img-thumbnail" style="width: 15rem;">
-          <img src="images/trung.jpg" class="card-img-top" alt="...">
+          <img src="images/mut.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Loại 3</h5>
             <p class="card-text text-warning">Giá: 18000</p>
@@ -429,7 +429,7 @@
 
       <div class="col-md-3 mb-2">
         <div class="card img-thumbnail" style="width: 15rem;">
-          <img src="images/sua.jpg" class="card-img-top" alt="...">
+          <img src="images/mut.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Loại 4</h5>
             <p class="card-text text-warning">Giá: 30000</p>

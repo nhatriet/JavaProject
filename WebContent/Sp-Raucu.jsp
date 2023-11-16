@@ -152,7 +152,7 @@
   <figure class="text-left">
     <blockquote class="blockquote">
     <div class="shadow-sm p-3 mb-5 bg-body rounded">
-      <h2 class="text-decoration-underline ">Rau củ</h2>
+      <h2 >Rau củ</h2>
       </div>
     </blockquote>
   </figure>

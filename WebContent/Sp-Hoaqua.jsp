@@ -152,7 +152,7 @@
   <figure class="text-left">
     <blockquote class="blockquote">
     <div class="shadow-sm p-3 mb-5 bg-body rounded">
-      <h2 class="text-decoration-underline ">Hoa Quả</h2>
+      <h2>Hoa Quả</h2>
       </div>
     </blockquote>
   </figure>

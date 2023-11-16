@@ -78,24 +78,36 @@
 <!-- Header -->
 
 <!-- Content -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+			<div id="demo" class="carousel slide" data-bs-ride="carousel">
   			<!-- Indicators/dots -->
   			<div class="carousel-indicators">
 	    		<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
 			    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
 			    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
  			</div>
-  
   			<!-- The slideshow/carousel -->
   			<div class="carousel-inner">
   			 	<div class="carousel-item active">
   			 		<img src="images/img1.jpg" alt="Ur Food" class="d-block " style="width:100%" >
+  			 		<div class="carousel-caption d-none d-md-block"  >
+        			<h2>Thực phẩm sạch </h2>
+        			<h5> Tất cả hàng hóa tươi sống được làm mới sau 18h</h5>
+      				</div>
     			</div>
 				<div class="carousel-item">
   			 		<img src="images/img2.jpg" alt="Ur Food" class="d-block" style="width:100%">
+  			 		<div class="carousel-caption d-none d-md-block">
+        			<h2>Hàng hóa đa dạng</h2>
+        			<h5>Địa điểm mua sắp lý tưởng với hơn 500 sản phẩm</h5>
+      				</div>
     			</div>
 				<div class="carousel-item">
   			 		<img src="images/img3.jpg" alt="Ur Food" class="d-block" style="width:100%">
+  			 		<div class="carousel-caption d-none d-md-block">
+        			<h2>Đảm bảo chất lượng</h2>
+			        <h5>Được kiểm định công khai trước khi nhập hàng</h5>
+			      </div>
     			</div>
   
 				<!-- Left and right controls/icons -->
@@ -109,16 +121,34 @@
     	</div>
     	
     	<!-- Sản phẩm nổi bật  -->
+    	<div class="container mt-3">
+  		<figure class="text-left">
+    	<blockquote class="blockquote">
+    	<div class="shadow-sm p-3 mb-5 bg-body rounded">
+      	<h1 class="text-decoration-underline ">ĐỀ XUẤT CHO BẠN</h1>
+      	</div>
+    	</blockquote>
+  	</figure>
+	</div>
     	 <div class="container mt-3">
     <div class="row">
       <div class="col-md-4">
         <img src="images/nen1.jpg" alt="Ảnh 1" class="img-thumbnail">
+        <div class="col" style="justify-content: center; text-align: center">
+        <a href="Sp-Raucu.jsp" class="btn btn-light btn-block ">Rau củ</a>
+      </div>
       </div>
       <div class="col-md-4">
         <img src="images/nen2.jpg" alt="Ảnh 2" class="img-thumbnail">
+        <div class="col" style="justify-content: center; text-align: center">
+        <a href="Sp-Hoaqua.jsp" class="btn btn-light btn-block  ">Hoa quả</a>
+      </div>
       </div>
       <div class="col-md-4">
         <img src="images/nen3.jpg" alt="Ảnh 3" class="img-thumbnail">
+        <div class="col" style="justify-content: center; text-align: center">
+        <a href="Sp-Mut.jsp" class="btn btn-light btn-block  ">Mứt</a>
+      </div>
       </div>
     </div>
   </div>
@@ -278,9 +308,9 @@
       </div>
     </div>
   </div>
-  		<div class="d-grid d-md-flex justify-content-md-end">
-	<a href="#" class="btn btn-dark btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Xem thêm</a>
-		 </div>
+  		<div class="col" style="justify-content-md-end: center; text-align: right">
+        <a href="Sp-Raucu.jsp" class="btn btn-secondary btn-block ">Xem thêm</a>
+      </div>
     	<!-- Sản phẩm nổi bật  -->
     	
     	<!-- Mới nhất  -->
@@ -365,9 +395,9 @@
         </div>
       </div>
     </div>
-    <div class="d-grid d-md-flex justify-content-md-end">
-	<a href="#" class="btn btn-dark btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Xem thêm</a>
-		 </div>
+    <div class="col" style="justify-content-md-end: center; text-align: right">
+        <a href="Sp-Raucu.jsp" class="btn btn-secondary btn-block ">Xem thêm</a>
+      </div>
     </div>
     
     <!-- Danh mục  -->
@@ -376,22 +406,22 @@
     <div class="row d-flex bg-secondary">
       <h2> danh mục</h2>
       <div class="col ">
-        <a href="" class="btn btn-dark btn-block ">Rau củ</a>
+        <a href="Sp-Raucu.jsp" class="btn btn-dark btn-block ">Rau củ</a>
       </div>
       <div class="col">
-        <a href="" class="btn btn-dark btn-block  ">Hoa quả</a>
+        <a href="Sp-Hoaqua.jsp" class="btn btn-dark btn-block  ">Hoa quả</a>
       </div>
       <div class="col">
-        <a href="" class="btn btn-dark btn-block ">Ngũ cốc</a>
+        <a href="Sp-Ngucoc.jsp" class="btn btn-dark btn-block ">Ngũ cốc</a>
       </div>
       <div class="col">
-        <a href="" class="btn btn-dark btn-block  ">Thịt cá</a>
+        <a href="Sp-Thitca.jsp" class="btn btn-dark btn-block  ">Thịt cá</a>
       </div>
       <div class="col">
-        <a href="" class="btn btn-dark btn-block ">Trứng</a>
+        <a href="Sp-Trungsua.jsp" class="btn btn-dark btn-block ">Trứng, Sữa</a>
       </div>
       <div class="col">
-        <a href="" class="btn btn-dark btn-block ">Mứt</a>
+        <a href="Sp-Mut" class="btn btn-dark btn-block ">Mứt</a>
       </div>
     </div>
   </div>
@@ -440,4 +470,5 @@
  <%@ include file="footer.html" %>
 <!-- Footer --> 
 </body>
+
 </html>
