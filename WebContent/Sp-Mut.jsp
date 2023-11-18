@@ -31,42 +31,7 @@
 	<title>Mứt</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-success">
-    <div class="container-fluid">
-        <a href="#" class="navbar-brand">
-            <img src="images/urfood.png" height="28" alt="UrFood">
-        </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav">
-                <a href="index.jsp" class="nav-item nav-link active">Trang chủ</a>
-                <div class="nav-item dropdown">
-        			<a href="Sanpham.jsp" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sản phẩm</a>
-        			<div class="dropdown-menu">
-	            		<a href="Sp-Raucu.jsp" class="dropdown-item">Rau củ</a>
-	            		<a href="Sp-Hoaqua.jsp" class="dropdown-item">Hoa Loại</a>
-	            		<a href="Sp-Ngucoc.jsp" class="dropdown-item">Ngũ cốc</a>
-	            		<a href="Sp-Thitca.jsp" class="dropdown-item">Thịt cá</a>
-	            		<a href="Sp-Trungsua.jsp" class="dropdown-item">Trứng sữa</a>
-	            		<a href="Sp-Mut.jsp" class="dropdown-item">Mứt</a>
-        			</div>
-    			</div>
-                <a href="introduction.jsp" class="nav-item nav-link">Giới thiệu</a>
-                <a href="contact.jsp" class="nav-item nav-link">Liên hệ</a>
-            </div>
-            <form class="d-flex ms-auto">
-                <input type="text" class="form-control me-sm-2" placeholder="Search...">
-                <button type="submit" class="btn btn-outline-light">Search</button>
-            </form>
-            <div class="navbar-nav ms-auto">
-                <a href="registration.jsp" class="nav-item nav-link">Đăng ký</a>
-                <a href="login.jsp" class="nav-item nav-link">Đăng nhập</a>
-            </div>
-        </div>
-    </div>
-</nav>
+<%@ include file="Header.jsp" %>
 <!-- Header -->
 <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
   <ol class="breadcrumb ">

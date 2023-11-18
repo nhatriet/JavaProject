@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<link href="css/index-styles.css" rel="stylesheet" />
 	<meta charset="UTF-8">
 	
@@ -32,49 +33,7 @@
 </head>
 <body>
 <!-- Header --> 
-
- <nav class="navbar navbar-expand-lg navbar-light bg-secondary" >
- 
-    <div class="container-fluid" >
-        <a href="#" class="navbar-brand">
-            <img src="images/urfood.png" height="28" alt="UrFood">
-        </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav">
-                <a href="index.jsp" class="nav-item nav-link active">Trang chủ</a>
-                <div class="nav-item dropdown">
-        			<a href="Sanpham.jsp" class=" nav-link dropdown-toggle" data-bs-toggle="dropdown">Sản phẩm</a>
-        			<div class="dropdown-menu">
-        			
-	            		<a href="Sp-Raucu.jpg" class="dropdown-item">Rau củ</a>
-	            		<a href="Sp-Hoaqua.jpg" class="dropdown-item">Hoa quả</a>
-	            		<a href="Sp-Ngucoc.jpg" class="dropdown-item">Ngũ cốc</a>
-	            		<a href="Sp-Thitca.jpg" class="dropdown-item">Thịt cá</a>
-	            		<a href="Sp-Trungsua.jpg" class="dropdown-item">Trứng sữa</a>
-	            		<a href="Sp-Mut.jpg" class="dropdown-item">Mứt</a>
-        			</div>
-        			
-    			</div>
-    			
-                <a href="introduction.jsp" class="nav-item nav-link">Giới thiệu</a>
-                <a href="contact.jsp" class="nav-item nav-link">Liên hệ</a>
-            </div>
-            <form class="d-flex ms-auto">
-            
-                <input type="text" class="form-control me-sm-2" placeholder="Search...">
-                <button type="submit" class="btn btn-outline-light" > <i class="bi bi-search-heart"></i> Search</button>
-                
-            </form>
-            <div class="navbar-nav ms-auto">
-                <a href="registration.jsp" class="nav-item nav-link">Đăng ký</a>
-                <a href="login.jsp" class="nav-item nav-link">Đăng nhập</a>
-            </div>
-        </div>
-    </div>
-</nav>
+	<%@ include file="Header.jsp" %>
 <!-- Header -->
 
 <!-- Content -->
@@ -89,21 +48,21 @@
   			<!-- The slideshow/carousel -->
   			<div class="carousel-inner">
   			 	<div class="carousel-item active">
-  			 		<img src="images/img1.jpg" alt="Ur Food" class="d-block " style="width:100%" >
+  			 		<img src="images/img1.jpg" alt="Ur Food" class="d-block " style="width:88%;margin: auto;" >
   			 		<div class="carousel-caption d-none d-md-block"  >
         			<h2>Thực phẩm sạch </h2>
         			<h5> Tất cả hàng hóa tươi sống được làm mới sau 18h</h5>
       				</div>
     			</div>
 				<div class="carousel-item">
-  			 		<img src="images/img2.jpg" alt="Ur Food" class="d-block" style="width:100%">
+  			 		<img src="images/img2.jpg" alt="Ur Food" class="d-block" style="width:88%;margin: auto;">
   			 		<div class="carousel-caption d-none d-md-block">
         			<h2>Hàng hóa đa dạng</h2>
         			<h5>Địa điểm mua sắp lý tưởng với hơn 500 sản phẩm</h5>
       				</div>
     			</div>
 				<div class="carousel-item">
-  			 		<img src="images/img3.jpg" alt="Ur Food" class="d-block" style="width:100%">
+  			 		<img src="images/img3.jpg" alt="Ur Food" class="d-block" style="width:88%;margin: auto;">
   			 		<div class="carousel-caption d-none d-md-block">
         			<h2>Đảm bảo chất lượng</h2>
 			        <h5>Được kiểm định công khai trước khi nhập hàng</h5>
@@ -399,37 +358,41 @@
         <a href="Sp-Raucu.jsp" class="btn btn-secondary btn-block ">Xem thêm</a>
       </div>
     </div>
+    <div class="container-fluid py-6">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5 wow bounceInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: bounceInUp;">
+                        <img src="images/gioithieu2.jpg" class="img-fluid rounded" alt="">
+                    </div>
+                    <div class="col-lg-7 wow bounceInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: bounceInUp;">
+                        <small class="d-inline-block fw-bold text-dark text-uppercase border rounded-pill px-4 py-1 mb-3" style="background-color: #d4a762;">Về chúng tôi</small>
+                        <h1 class="display-5 mb-4">Đội ngũ nhân viên năng động sáng tạo</h1>
+                        <p class="mb-4">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore eit esdioilore magna aliqua. Ut enim ad minim veniam, 
+                            quis nostrud exercitation ullaemco laboeeiris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                            dolor iesdein reprehendeerit in voluptate velit esse cillum dolore.</p>
+                        <div class="row g-4 text-dark mb-5">
+                            <div class="col-sm-6">
+                                <i class="fas fa-share  me-2"></i>Giao đồ ăn tươi và nhanh
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fas fa-share  me-2"></i>Hỗ trợ khách hàng 24/7
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fas fa-share  me-2"></i>Tùy chọn tùy chỉnh dễ dàng
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fas fa-share  me-2"></i>Ưu đãi hấp dẫn cho bữa ăn ngon
+                            </div>
+                        </div>
+                        <a href="introduction.jsp" class="btn py-3 px-5 rounded-pill" style="background-color: #d4a762;">Giới thiệu<i class="fas fa-arrow-right ps-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     
-    <!-- Danh mục  -->
-     <div class="container mt-3 bg-secondary">
-  <div class="shadow-sm p-3 mb-5  rounded">
-    <div class="row d-flex bg-secondary">
-      <h2> danh mục</h2>
-      <div class="col ">
-        <a href="Sp-Raucu.jsp" class="btn btn-dark btn-block ">Rau củ</a>
-      </div>
-      <div class="col">
-        <a href="Sp-Hoaqua.jsp" class="btn btn-dark btn-block  ">Hoa quả</a>
-      </div>
-      <div class="col">
-        <a href="Sp-Ngucoc.jsp" class="btn btn-dark btn-block ">Ngũ cốc</a>
-      </div>
-      <div class="col">
-        <a href="Sp-Thitca.jsp" class="btn btn-dark btn-block  ">Thịt cá</a>
-      </div>
-      <div class="col">
-        <a href="Sp-Trungsua.jsp" class="btn btn-dark btn-block ">Trứng, Sữa</a>
-      </div>
-      <div class="col">
-        <a href="Sp-Mut" class="btn btn-dark btn-block ">Mứt</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-     <!-- Danh mục  -->
     
   <!-- xếp hạng -->
+  <div class="container mt-5 " >
   <div class="shadow-sm p-3 mb-5 bg-body rounded">
   <h3> Xếp hạng bán chạy trong tuần</h3>
     <table class="table">
@@ -463,7 +426,36 @@
   </tbody>
 </table>
 </div>
+</div>
     <!-- xếp hạng -->
+    <!-- Danh mục  -->
+     <div class="container mt-3 bg-secondary" >
+  <div class="shadow-sm p-3 mb-5  rounded">
+    <div class="row d-flex bg-secondary" >
+      <h2> Danh mục</h2>
+      <div class="col ">
+        <a href="Sp-Raucu.jsp" class="btn btn-dark btn-block ">Rau củ</a>
+      </div>
+      <div class="col">
+        <a href="Sp-Hoaqua.jsp" class="btn btn-dark btn-block  ">Hoa quả</a>
+      </div>
+      <div class="col">
+        <a href="Sp-Ngucoc.jsp" class="btn btn-dark btn-block ">Ngũ cốc</a>
+      </div>
+      <div class="col">
+        <a href="Sp-Thitca.jsp" class="btn btn-dark btn-block  ">Thịt cá</a>
+      </div>
+      <div class="col">
+        <a href="Sp-Trungsua.jsp" class="btn btn-dark btn-block ">Trứng, Sữa</a>
+      </div>
+      <div class="col">
+        <a href="Sp-Mut" class="btn btn-dark btn-block ">Mứt</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+     <!-- Danh mục  -->
 <!-- Content -->
 
 <!-- Footer -->
