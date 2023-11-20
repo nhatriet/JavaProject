@@ -126,9 +126,9 @@
     <!-- Hàng 1 -->
     <div class="row">
       <div class="col-md-3 mb-2">
-        <div class="card" style="width: 17rem;">
+        <div class="card " style="width: 17rem;">
           <img src="images/traicay2.jpg" class="card-img-top"  alt="...">
-          <div class="card-body">
+          <div class="card-body ">
             <h5 class="card-title">Quả 1</h5>
             <p class="card-text text-warning">Giá: 20000</p>
             <button type="button" class="btn btn-outline-secondary">
@@ -358,6 +358,8 @@
         <a href="Sp-Raucu.jsp" class="btn btn-secondary btn-block ">Xem thêm</a>
       </div>
     </div>
+    
+    <!-- giới thiệu -->
     <div class="container-fluid py-6">
             <div class="container">
                 <div class="row g-5 align-items-center">
